@@ -1,3 +1,5 @@
+import ReactivityTransform from '@vue-macros/reactivity-transform/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-03',
@@ -8,4 +10,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  vite: {
+    plugins: [ReactivityTransform()],
+  }
 })
