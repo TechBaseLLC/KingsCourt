@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>My page {{ helloWorldResponse }}</p>
+    <p class="underline">Testing tailwindcss</p>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
   </div>
